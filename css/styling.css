@@ -1,0 +1,60 @@
+body {
+	background-color: #EAF6F6;
+}
+
+h1 {
+	color: #66BFBF;
+}
+
+h2 {
+	color: #66BFBF;
+}
+
+h3 {
+	color: #66BFBF;
+}
+
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: grey;
+	border-width: 5px;
+	width: 5%;
+}
+
+/* Comment: Class Selector */
+.first_tb {
+	background-color: #012907; 
+	width: 100%;
+}
+
+
+/* Comment: ID Selector 
+#link {
+	color: #012907; 
+}
+
+#link1 {
+	color: #ff0909; 
+}
+*/
+
+
+/* Comment: Class Selector */
+.link {
+	color: #012907; 
+}
+
+.link1 {
+	color: #ff0909; 
+}
+
+
+/* Comment: Sudo Classes */
+.link:hover {
+	background-color: #ff0909; 
+}
+
+.link1:hover {
+	background-color: #012907; 
+}
